@@ -1,0 +1,7 @@
+javac SumAverage.java
+
+java SumAverage.java
+
+jar cf Calculate.jar SumAverage.class
+
+java -cp Calculate.jar SumAverage.java
